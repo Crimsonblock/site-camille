@@ -1,51 +1,8 @@
 import { Component } from "react";
-import Section from "./Section";
-import Card from "./Card";
+import Section from "./utils/Section";
+import Card from "./utils/Card";
 
-const repertoir=[{
-    composer: "Purcell",
-    roles: ["Dido", "Sorceress", "2nd Woman"]
-},
-{
-    composer: "Händel",
-    roles: ["Sesto"]
-},
-{
-    composer: "Mozart",
-    roles: ["Cherubino", "Sesto", "Annio", "Idamante", "Dorabella"]
-},
-{
-    composer: "Rossini",
-    roles: ["Cenerentola"]
-},
-{
-    composer :"Bellini",
-    roles: ["Clotilde"]
-},
-{
-    composer: "Humperdinck",
-    roles: ["Hänsel"]
-},
-{
-    composer: "Gounod",
-    roles: ["Stéphano", "Siébel"]
-},
-{
-    composer: "Debussy",
-    roles: ["Yniold"]
-},
-{
-    composer: "Massenet",
-    roles: ["Cendrillon"]
-},
-{
-    composer: "Ravel",
-    roles: ["L'Enfant"]
-},
-{
-    composer: "Strauss",
-    roles: ["Komponist"]
-}]
+
 
 
 class Home extends Component{
